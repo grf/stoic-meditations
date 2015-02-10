@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 
-meditations = File.read(DATA).split(/\n\n+/)
-saying = meditations[rand(meditations.length)].split(/^-/)
-puts '', saying[0].to_s, '', '-' + saying[1].to_s, ''
+meditations = DATA.read.split(/\n\n+/)
+aphorism, source = meditations.shuffle.pop.split(/^-/)
+puts '', aphorism.to_s, '', '-' + source.to_s, ''
 
 __END__
 Above all, make this your business: learn how to feel joy.
