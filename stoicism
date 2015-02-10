@@ -1,0 +1,665 @@
+#!/usr/bin/env ruby
+# coding: utf-8
+
+meditations = File.read(DATA).split(/\n\n+/)
+saying = meditations[rand(meditations.length)].split(/^-/)
+puts '', saying[0].to_s, '', '-' + saying[1].to_s, ''
+
+__END__
+Above all, make this your business: learn how to feel joy.
+-Seneca, Letters
+
+
+
+Allow not sleep to close your wearied eyes until you have reckoned up
+each daytime deed.
+-Epictetus, Discourses
+
+
+
+Although you are not yet a Socrates, you should live as someone who at
+least wants to be a Socrates.
+-Epictetus, Enchiridion
+
+
+
+Anger and frustration hurt us more than the things we are annoyed
+about hurt us.
+-Marcus Aurelius, Meditations
+
+
+
+At daybreak, when reluctant to rise, have this thought ready in your
+mind: ‘I am getting up to do a human being’s work.'
+-Marcus Aurelius, Meditations
+
+
+
+Carry out each act as if it were the last of your life, freed from all
+randomness and passionate deviation from the rule of reason and from
+pretence and self-love and dissatisfaction with what has been allotted
+to you.
+-Marcus Aurelius, Meditations
+
+
+
+Come to your journey’s end with a good grace, just as an olive falls
+when it is fully ripe, praising the earth that bore it and grateful to
+the tree that gave it growth.
+-Marcus Aurelius, Meditations
+
+
+
+Does the captain of a ship manage it better by not attending?
+-Epictetus, Discourses
+
+
+
+Don’t wait for Plato’s Republic! Rather, be content if one tiny thing
+makes some progress, and reflect on the fact that what results from
+this tiny thing is no tiny thing at all!
+-Marcus Aurelius, Meditations
+
+
+
+Every day I plead the case against myself as judge.
+-Seneca, On Anger
+
+
+
+Every hour focus your mind attentively on the performance of the task
+in hand, with dignity, human sympathy, benevolence and freedom, and
+leave aside all other thoughts. You will achieve this, if you perform
+each action as if it were your last.
+-Marcus Aurelius, Meditations
+
+
+
+Fate permitting.
+-Marcus Aurelius, Meditations
+
+
+
+For I am not eternity, but a man: a part of the whole, as an hour is
+of the day. I must come like an hour, and like an hour must pass away.
+-Epictectus, Discourses
+
+
+
+For why should I be afraid of any of my mistakes, when I can say:
+beware of doing that again, and this time I pardon you.
+-Seneca, On Anger
+
+
+
+From first to last review your acts and then reprove yourself for
+wretched [or cowardly] acts, but rejoice in those done well.
+-Epictetus, Discourses
+
+
+
+Happy the man who improves other people not merely when he is in their
+presence but even when he is in their thoughts.
+-Seneca, Letters
+
+
+
+He is a wise man who does not grieve for the things he has not, but
+rejoices for those which he has.
+-Epictectus, Enchiridion
+
+
+
+He who receives a benefit with gratitude repays the first installment
+on his debt.
+-Seneca, On Benefits
+
+
+
+Here and now. (Hic et nunc)
+-Anonymous, common Roman saying
+
+
+
+How tiny a fragment of boundless and abysmal time has been appointed
+to each man! For in a moment it is lost in eternity.
+-Marcus Aurelius, Meditations
+
+
+
+I am not eternal, but a human being; a part of the whole, as an hour
+is of the day. Like an hour I must come and, like an hour, pass away.
+-Epictetus, Discourses
+
+
+
+If you wish to be loved, love.
+-Seneca, Letters
+
+
+
+In general, therefore, if you want to do something make a habit of it;
+if you want not to do something, refrain from doing it, and accustom
+yourself to something else instead.
+-Epictetus, Discourses
+
+
+
+It is in times of security that the spirit should be preparing itself
+to deal with difficult times.
+-Seneca, Letters
+
+
+
+It is my good luck that, although this has happened to me, I can bear
+it without getting upset, neither crushed by the present nor afraid of
+the future.
+-Marcus Aurelius, Meditations
+
+
+
+It is not death that a man should fear. But he should fear never
+beginning to live.
+-Marcus Aurelius, Meditations
+
+
+
+It is possible for you to retreat into yourself whenever you please.
+-Marcus Aurelius, Meditations
+
+
+
+It is within my power to derive benefit from every experience.
+-Epictetus, Enchiridion
+
+
+
+It seemed so to him.
+-Epictetus, Enchiridion
+
+
+
+Keep before your eyes day by day death and exile, and everything that
+seems catastrophic, but most of all death; and then you will never
+have any abject thought, nor will you crave anything excessively.
+-Epictetus, Enchiridion
+
+
+
+Kindness is an irresistible force, so long as it is genuine.
+-Marcus Aurelius, Meditations
+
+
+
+Life is long enough, and it has been given in sufficiently generous
+measure to allow the accomplishment of the very greatest things if the
+whole of it is well invested.
+-Seneca, On the Shortness of Life
+
+
+
+Life is neither good or bad, it is the space for both good and bad.
+-Seneca, Letters
+
+
+
+Make a decision to quit thinking of things as insulting, and you anger
+immediately disappears.
+-Marcus Aurelius, Meditations
+
+
+
+Men have come into being for one another; so either educate them or
+put up with them.
+-Marcus Aurelius, Meditations
+
+
+
+My business is to use what does turn up with diligence and skill.
+-Epictetus, Discourses
+
+
+
+No good thing is pleasant to possess, without friends to share it.
+-Seneca, Letters
+
+
+
+No matter what anyone says or does, my task is to be the emerald, my
+colour undiminished.
+-Marcus Aurelius, Meditations
+
+
+
+No one can stop you from undertaking action with justice,
+selfdiscipline, and practical wisdom.
+-Marcus Aurelius, Meditations
+
+
+
+No tree becomes rooted and sturdy unless many a wind assails it.
+-Seneca, On Providence
+
+
+
+Nothing brings happiness unless it also brings calm.
+-Seneca, Letters
+
+
+
+Nothing is as effective in creating greatness of mind as being able to
+examine methodically and truthfully everything that presents itself in
+life.
+-Marcus Aurelius, Meditations
+
+
+
+Perform every action as though it were your last.
+-Marcus Aurelius, Meditations
+
+
+
+Possibly the philosophers say what is contrary to opinion, but
+assuredly not what is contrary to reason.
+-Epictetus, Discourses
+
+
+
+Rational beings exists for the sake of one another. Thus the leading
+principle in the constitution of man is concern for the good of
+others.
+-Marcus Aurelius, Meditations
+
+
+
+Say to yourself at daybreak: I shall come across the meddling busy-
+body, the ungrateful, the overbearing, the treacherous, the envious,
+and the antisocial. All this has befallen them because they cannot
+tell good from evil.
+-Marcus Aurelius, Meditations
+
+
+
+Seek not for events to happen as you wish but wish events to happen as
+they do and your life will go smoothly and serenely.
+-Epictetus, Enchiridion
+
+
+
+The happiness of your life depends upon the quality of your thoughts.
+-Marcus Aurelius, Meditations
+
+
+
+The marks of a proficient are, that he censures no one, praises no
+one, blames no one, accuses no one, says nothing concerning himself as
+being anybody, or knowing anything.
+-Epictetus, Enchiridion
+
+
+
+The marks of the proficient person are that he censures no one,
+praises no one, blames no one, accuses no one, says nothing concerning
+himself as being anybody, or knowing anything.
+-Epictectus, Enchiridion
+
+
+
+The nature of the Universe loves nothing so much as to change the
+things which are, and to make new things like them.
+-Marcus Aurelius, Meditations
+
+
+
+The philosopher's school is a doctor's clinic.
+-Epictetus, Discourses
+
+
+
+The thing that matters the most is not what you bear but how you bear
+it.
+-Seneca, On Providence
+
+
+
+The willing are led by fate, the reluctant dragged.
+-Cleanthes, Hymn to Zeus
+
+
+
+The wise man looks to the purpose of all actions, not their
+consequences; beginnings are in our power but Fortune judges the
+outcome, and I do not grant her a verdict upon me.
+-Seneca, Letters
+
+
+
+There is a need for someone as a standard against which our characters
+can measure themselves. Without a ruler to do it against you will not
+make the crooked straight.
+-Seneca, Letters
+
+
+
+There is usually a lot to learn before any sure-footed moral judgments
+can be made about other people's actions.
+-Marcus Aurelius, Meditations
+
+
+
+To let one’s mind go lax is, in effect, to lose it.
+-Musonius Rufus, Sayings
+
+
+
+Waste no more time arguing what a good man should be - be one.
+-Marcus Aurelius, Meditations
+
+
+
+We were born for cooperation, like feet, like hands, like eyelids,
+like the rows of upper and lower teeth. So to work in opposition to
+one another is against nature.
+-Marcus Aurelius, Meditations
+
+
+
+What bad habit have you put right today? Which fault did you take a
+stand against? In what respect are you better?
+-Seneca, On Anger
+
+
+
+What thing is done better by those who are inattentive?
+-Epictetus, Discourses
+
+
+
+What would have Socrates or Zeno done in this situation?
+-Epictetus, Enchiridion
+
+
+
+What, then, is to be done? To make the best of what is in our power,
+and take the rest as it naturally happens.
+-Epictectus, Discourses
+
+
+
+Whatever has been long anticipated comes as a lighter blow.
+-Seneca, Letters
+
+
+
+When you rise in the morning, think of what a precious privilege it is
+to be alive; to breathe, think, to enjoy, to love.
+-Marcus Aurelius, Meditations
+
+
+
+Whenever, as the sun rises, you feel unwilling to get up, have this
+thought ready to hand: I rise to do the work of a human being.
+-Marcus Aurelius, Meditations
+
+
+
+Where did I go wrong? What did I do? And what duty is left undone?
+-Epictetus, Discourses
+
+
+
+While fate allows, live happily.
+-Seneca, Hercules Furens
+
+
+
+Will your fate.
+-Epictetus, Enchiridion
+
+
+
+Yes, indeed, I shall use the old road, but if I find a shorter and
+easier one I shall open it up. The men who pioneered the old routes
+are leaders, not our masters. Truth lies open to every one. There has
+yet to be a monopoly of truth. And there is plenty of it left for
+future generations too.
+-Seneca, Letters
+
+
+
+You see how few are the things that a person needs to master if he is
+to live a tranquil and divine life.
+-Marcus Aurelius, Meditations
+
+
+
+I endured incredible trials because I could not endure myself.
+-Seneca, Letters
+
+
+
+Let us take in with our mind the worst thing that can possibly happen,
+if we don’t want to be mastered by it.
+-Seneca, Letters
+
+
+
+If someone is able to convince me and show me that what I do or think
+is not right, I will gladly change; for I seek the truth, by which no
+one was ever injured. But those who abide in their error and ignorance
+are injured.
+-Marcus Aurelius, Meditations
+
+
+
+No one can live happily who has regard to himself alone and transforms
+everything into a question of his own utility; you must live for your
+neighbour, if you would live for yourself.
+-Seneca, Letters
+
+
+
+No one is a laughing-stock who laughs first at himself.
+-Seneca, On Firmness
+
+
+
+Just as it is not the last drop that stops the water-clock but every
+drop that has previously fallen, so the last hour when we cease to
+exist is not the only one to cause death but the only one to complete
+it: we reach death then but we have been coming to it for a long time.
+-Seneca, Letters
+
+
+
+You are mistaken if you think that luxury, neglect of good manners,
+and other vices of which each man accuses the age in which he lives,
+are especially characteristic of our own epoch; no, they are the vices
+of mankind and not of the times.
+-Seneca, Letters
+
+
+
+What decides whether a sum of money is good? The money is not going to
+tell you; it must be the faculty that makes use of such impressions –
+reason.
+-Epictectus, Discourses
+
+
+
+Being attached to many things, we are weighed down and dragged along
+with them.
+-Epictectus, Discourses
+
+
+
+What should we do then? Make the best use of what is in our power, and
+treat the rest in accordance with its nature.
+-Epictectus, Discourses
+
+
+
+What should we have ready at hand in a situation like this? The
+knowledge of what is mine and what is not mine, what I can and cannot
+do.
+-Epictectus, Discourses
+
+
+
+‘I will throw you into prison.’ ‘Correction – it is my body you will
+throw there.’
+-Epictectus, Discourses
+
+
+
+I have to die. If it is now, well then I die now; if later, then now I
+will take my lunch, since the hour for lunch has arrived – and dying I
+will tend to later.
+-Epictectus, Discourses
+
+
+
+Education has no goal more important than bringing our preconception
+of what is reasonable and unreasonable in alignment with nature.
+-Epictectus, Discourses
+
+
+
+Consider at what price you sell your integrity; but please, for God’s
+sake, don’t sell it cheap.
+-Epictectus, Discourses
+
+
+
+What is the goal of virtue, after all, except a life that flows
+smoothly?
+-Epictectus, Discourses
+
+
+
+If from the moment they get up in the morning they adhere to their
+ideals, eating and bathing like a person of integrity, putting their
+principles into practice in every situation they face – the way a
+runner does when he applies the principles of running, or a singer
+those of musicianship – that is where you will see true progress
+embodied, and find someone who has not wasted their time making the
+journey here from home.
+-Epictectus, Discourses
+
+
+What else are tragedies but the ordeals of people who have come to
+value externals, tricked out in tragic verse?
+-Epictetus, Discourses
+
+
+
+If a man objects to truths that are all too evident, it is no easy
+task finding arguments that will change his mind. This is proof
+neither of his own strength nor of his teacher’s weakness. When
+someone caught in an argument hardens to stone, there is just no more
+reasoning with them.
+-Epictectus, Discourses
+
+
+
+Most of us dread the deadening of the body and will do anything to
+avoid it. About the deadening of the soul, however, we don’t care one
+iota.
+-Epictectus, Discourses
+
+
+
+We pity the mentally retarded, and students with learning
+difficulties. But if somebody’s sense of shame and respect are dead,
+we will actually call this determination.
+-Epictectus, Discourses
+
+
+
+And so it is inexcusable for man to begin and end where the beasts
+do. He should begin where they do, but only end where nature left off
+dealing with him; which is to say, in contemplation and understanding.
+-Epictectus, Discourses
+
+
+
+“But my nose is running!” What do you have hands for, idiot, if not to
+wipe it? “But how is it right that there be running noses in the first
+place?” Instead of thinking up protests, wouldn’t it be easier just to
+wipe your nose?
+-Epictectus, Discourses
+
+
+
+For what does reason purport to do? “Establish what is true, eliminate
+what is false and suspend judgement in doubtful cases.” … What else
+does reason prescribe? “To accept the consequence of what has been
+admitted to be correct.”
+-Epictectus, Discourses
+
+
+
+Why are we still lazy, indifferent and dull? Why do we look for
+excuses to avoid training and exercising our powers of reason? “Look,
+if I err in such matters I haven’t killed my father, have I?” No, fool
+– for there was no father there for you to kill! What did you do
+instead? You made the only mistake you had the opportunity to make.
+-Epictectus, Discourses
+
+
+
+I mean, are these the only crimes, killing your father and burning
+down the Capitol? But to use one’s impressions recklessly, carelessly
+and at random, to fail to analyse an argument as either valid proof or
+fallacy, and, in a word, to fail to see in the act of question and
+answer what agrees with your position and what conflicts – is nothing
+wrong in all of that?
+-Epictectus, Discourses
+
+
+
+Don’t confuse qualities that are found in the same writer only
+incidentally. If Plato had been strong and handsome, should I also try
+to become strong and handsome, as if this were essential to
+philosophy, since there was one particular philosopher who combined
+philosophy with good looks?
+-Epictectus, Discourses
+
+
+
+Ask me what the real good in man’s case is, and I can only say that it
+is the right kind of moral character.
+-Epictectus, Discourses
+
+
+
+Doctors keep their scalpels and other instruments handy, for
+emergencies. Keep your philosophy ready too — ready to understand
+heaven and earth.
+-Marcus Aurelius, Meditations
+
+
+
+It never ceases to amaze me: we all love ourselves more than other
+people, but care more about their opinion than our own.
+-Marcus Aurelius, Meditations
+
+
+
+However much you possess there's someone else who has more, and you'll
+be fancying yourself to be short of things you need to the exact
+extent to which you lag behind him.
+-Seneca, Letters
+
+
+
+Associate with people who are likely to improve you. Welcome those who
+are capable of improving. The process is a mutual one: men learn as
+they teach.
+-Seneca, Letters
+
+
+
+Let us therefore go all out to make the most of friends, since no one
+can tell how long we shall have the opportunity.
+-Seneca, Meditations
